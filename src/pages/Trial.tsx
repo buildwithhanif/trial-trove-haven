@@ -1,19 +1,19 @@
 
 import React from 'react';
 import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import Features from '@/components/Features';
+import TrialContent from '@/components/TrialContent';
 import Footer from '@/components/Footer';
 
-const Index: React.FC = () => {
+const Trial: React.FC = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Features />
+      <div className="pt-24">
+        <TrialContent />
+      </div>
       <Footer />
     </>
   );
 };
 
-export default Index;
+export default Trial;
